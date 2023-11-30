@@ -11,6 +11,8 @@ footer {
 
 .header {
     margin: 92px 49px 92px 51px;
+    display: flex;
+
 }
 
 .header_menu {
@@ -26,4 +28,10 @@ footer {
 }
 .header__links-list-item {
     list-style-type: none;
+}
+
+.header_logo {
+    display: block;
+    width: 148px;
+    height: 105px;
 }
