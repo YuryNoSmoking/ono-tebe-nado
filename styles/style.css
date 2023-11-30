@@ -1,1 +1,52 @@
-/* место для вашего кода */
+ header {
+    border: 1px solid ;
+}
+/*
+footer {
+    background-color: aqua;
+    height: 100px;
+}
+*/
+
+.header {
+    margin: 92px 49px 92px 51px;
+}
+
+.header_menu {
+    display: flex;
+}
+.header_links-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: circle;
+}
+.header_links-list a {
+    margin: 16px;
+}
+.header__links-list-item {
+    list-style-type: none;
+}
+
+ul {
+    list-style: none; /* Убираем встроенные маркеры списка */
+    padding: 0;
+  }
+  
+  li {
+    padding-left: 12px; /* Отступ для маркера */
+    position: relative;
+  }
+  
+  li:before {
+    content: ""; /* Создаем "пустой" элемент для маркера */
+    display: inline-block;
+    width: 7px; /* Задаем ширину маркера */
+    height: 7px; /* Задаем высоту маркера */
+    background-color: #fff; /* Задаем цвет маркера */
+    border-radius: 50%; /* Делаем круглый маркер */
+    border: 1px solid;
+    position: absolute;
+    left: 0; /* Размещаем маркер слева от текста */
+    top: 50%; /* Размещаем маркер по центру вертикали */
+    transform: translateY(-50%); /* Корректируем положение маркера по вертикали */
+  }
