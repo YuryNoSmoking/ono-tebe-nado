@@ -1,5 +1,6 @@
  header {
     border: 1px solid ;
+    height: 50px;
 }
 /*
 footer {
@@ -26,27 +27,3 @@ footer {
 .header__links-list-item {
     list-style-type: none;
 }
-
-ul {
-    list-style: none; /* Убираем встроенные маркеры списка */
-    padding: 0;
-  }
-  
-  li {
-    padding-left: 12px; /* Отступ для маркера */
-    position: relative;
-  }
-  
-  li:before {
-    content: ""; /* Создаем "пустой" элемент для маркера */
-    display: inline-block;
-    width: 7px; /* Задаем ширину маркера */
-    height: 7px; /* Задаем высоту маркера */
-    background-color: #fff; /* Задаем цвет маркера */
-    border-radius: 50%; /* Делаем круглый маркер */
-    border: 1px solid;
-    position: absolute;
-    left: 0; /* Размещаем маркер слева от текста */
-    top: 50%; /* Размещаем маркер по центру вертикали */
-    transform: translateY(-50%); /* Корректируем положение маркера по вертикали */
-  }
