@@ -1,23 +1,27 @@
 .header {
     margin: 92px 49px 92px 51px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     font-weight: 400;
     font-family: Raleway;
     font-size: 18px;
     line-height: 24.3px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;    
 }
 
 .header_menu {
     display: flex;
     color: #000;
-
+    justify-self: start;
+    align-self: center;
 }
+
 .header_links-list {
     display: flex;
     justify-content: space-around;
     list-style-type: circle;
 }
+
 .header_links-list a {
     margin: 16px;
 }
@@ -29,10 +33,13 @@
 .header_logo {
     display: block;
     width: 148px;
-    height: 105px;
+    height: 105px;   
 }
 
-
+.address {
+    justify-self: end;
+    align-self: center;
+}
 
 
 
