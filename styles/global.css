@@ -34,3 +34,8 @@ a {
 img {
   width: 100%;
 }
+address {
+  margin: 0;
+  font-style: normal;
+  display: block;
+}

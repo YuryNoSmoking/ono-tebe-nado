@@ -1,6 +1,6 @@
  header {
     border: 1px solid ;
-    height: 50px;
+   
 }
 /*
 footer {
@@ -11,8 +11,8 @@ footer {
 
 .header {
     margin: 92px 49px 92px 51px;
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .header_menu {
@@ -34,4 +34,20 @@ footer {
     display: block;
     width: 148px;
     height: 105px;
+}
+/*      входная секция       */
+
+.cover {
+    height: 800px;
+    background-image: url(/images/cover.jpg);
+}
+
+
+.buttonpsevdo::before {
+    content: 'заказать';
+}
+
+.buttonpsevdo:hover::before {
+ content: "скореее!";
+
 }
