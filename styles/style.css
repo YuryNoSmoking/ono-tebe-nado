@@ -1,22 +1,17 @@
- header {
-    border: 1px solid ;
-   
-}
-/*
-footer {
-    background-color: aqua;
-    height: 100px;
-}
-*/
-
 .header {
     margin: 92px 49px 92px 51px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-weight: 400;
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 24.3px;
 }
 
 .header_menu {
     display: flex;
+    color: #000;
+
 }
 .header_links-list {
     display: flex;
@@ -26,6 +21,7 @@ footer {
 .header_links-list a {
     margin: 16px;
 }
+
 .header__links-list-item {
     list-style-type: none;
 }
@@ -35,13 +31,34 @@ footer {
     width: 148px;
     height: 105px;
 }
-/*      входная секция       */
+
+
+
+
+
+
+
+
+/*************************      входная секция       ************************/
 
 .cover {
-    height: 800px;
-    background-image: url(/images/cover.jpg);
+    height: 600px; /* еобходимо будет убрать после добалвения содержания */
+    background: url(/images/cover.jpg) no-repeat center/contain;
 }
 
+.overlay {
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+/* это псевдо элемент */
 
 .buttonpsevdo::before {
     content: 'заказать';
