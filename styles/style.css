@@ -1,77 +1,64 @@
 .header {
-    margin: 92px 49px 92px 51px;
-    font-weight: 400;
-    font-family: Raleway;
-    font-size: 18px;
-    line-height: 24.3px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;    
+  margin: 92px 49px 92px 51px;
+  font-weight: 400;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 24.3px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 
 .header_menu {
-    display: flex;
-    color: #000;
-    justify-self: start;
-    align-self: center;
+  display: flex;
+  color: #000;
+  justify-self: start;
+  align-self: center;
 }
 
 .header_links-list {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: circle;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: circle;
 }
 
 .header_links-list a {
-    margin: 16px;
+  margin: 16px;
 }
 
 .header__links-list-item {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .header_logo {
-    display: block;
-    width: 148px;
-    height: 105px;   
+  display: block;
+  width: 148px;
+  height: 105px;
 }
 
 .address {
-    justify-self: end;
-    align-self: center;
+  justify-self: end;
+  align-self: center;
 }
-
-
-
-
-
 
 /*************************      входная секция       ************************/
 
 .cover {
-    height: 600px; /* еобходимо будет убрать после добалвения содержания */
-    background: url(/images/cover.jpg) no-repeat center/contain;
+  height: 600px; /* еобходимо будет убрать после добалвения содержания */
+  background: url(/images/cover.jpg) no-repeat center/contain;
 }
 
 .overlay {
-    height: 600px;
-    background-color: rgba(0, 0, 0, 0.5);
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
-
-
 
 /* это псевдо элемент */
 
 .buttonpsevdo::before {
-    content: 'заказать';
+  content: "заказать";
 }
 
 .buttonpsevdo:hover::before {
- content: "скореее!";
-
+  content: "скореее!";
 }
