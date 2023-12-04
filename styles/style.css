@@ -32,6 +32,7 @@
 }
 
 .header_logo {
+  /* контейнер для тега а */
   display: block;
   width: 135px;
   height: 105px;
@@ -49,21 +50,34 @@
 /*************************      входная секция       ************************/
 
 .cover {
-  height: 700px; /* еобходимо будет убрать после добалвения содержания */
+  height: 760px; /* необходимо будет убрать после добалвения содержания */
   background: url(/images/cover.jpg) no-repeat center/contain;
 }
 
 .overlay {
-  height: 600px;
+  height: 760px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* это псевдо элемент */
-
-.buttonpsevdo::before {
-  content: "заказать";
+.cover_title {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 115px */
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
-.buttonpsevdo:hover::before {
-  content: "скореее!";
+.aligned-text {
+ letter-spacing: 40px;
+}
+
+.aligned-text_center {
+  letter-spacing: 60px;
+}
+
+.aligned-text_right {
+  letter-spacing: 80px;
 }
