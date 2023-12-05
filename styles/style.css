@@ -50,16 +50,16 @@
 /*************************      входная секция       ************************/
 
 .cover {
-  height: 760px; /* необходимо будет убрать после добалвения содержания */
-  background: url(/images/cover.jpg) no-repeat center/contain;
+  /*height: 760px;  необходимо будет убрать после добалвения содержания */
+  background: url(/images/cover.jpg) no-repeat center/cover;
 }
 
 .overlay {
-  height: 760px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cover_title {
+  /* заголовок */
   color: #fff;
   font-family: Raleway;
   font-size: 100px;
@@ -71,13 +71,61 @@
 }
 
 .aligned-text {
- letter-spacing: 40px;
+  display: block;
+  letter-spacing: 30px;
+  padding-top: 170px;
+  padding-left: 50px;
 }
 
 .aligned-text_center {
-  letter-spacing: 60px;
+  display: block;
+  letter-spacing: 30px;
+  padding-top: 11px;
+  padding-left: 506px;
 }
 
 .aligned-text_right {
-  letter-spacing: 80px;
+  display: block;
+  padding-left: 974px;
+  padding-top: 5px;
+
+  letter-spacing: 60px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 30px;
+}
+
+.cover_description {
+display: flex;
+justify-content: space-evenly;
+padding: 140px 0px 60px 100px;
+}
+
+.cover_description-text {
+  color: #fff;
+  font-weight: 400;
+  font-family: Raleway;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bet-button {
+  color: #fff;
+  font-weight: 400;
+  font-family: Raleway;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #fff ;
+  padding: 15px 40px;
+  background-color: transparent;
+  font-size: 22px;
+  position: relative;
+  inset: -10px -70px 30px 40px;
 }
