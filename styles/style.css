@@ -50,16 +50,14 @@
 /*************************      входная секция       ************************/
 
 .cover {
-  /*height: 760px;  необходимо будет убрать после добалвения содержания */
   background: url(/images/cover.jpg) no-repeat center/cover;
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover_title {
-  /* заголовок */
   color: #fff;
   font-family: Raleway;
   font-size: 100px;
@@ -102,20 +100,28 @@
 
 .cover_description {
 display: flex;
-justify-content: space-evenly;
-padding: 140px 0px 60px 100px;
+position: relative;
+gap: 32px;
+left: 322px;
+padding: 140px 0px 40px 100px;
 }
 
 .cover_description-text {
   color: #fff;
   font-weight: 400;
+  font-size: 22px;
   font-family: Raleway;
   font-style: normal;
   text-align: center;
   text-transform: uppercase;
+  word-spacing: 17px;
+}
+.world-spacing {
+  word-spacing: 21px;
 }
 
 .bet-button {
+  display: block;
   color: #fff;
   font-weight: 400;
   font-family: Raleway;
@@ -123,9 +129,72 @@ padding: 140px 0px 60px 100px;
   text-align: center;
   text-transform: uppercase;
   border: 1px solid #fff ;
-  padding: 15px 40px;
+  padding: 13px 33px 13px 30px;
   background-color: transparent;
   font-size: 22px;
   position: relative;
-  inset: -10px -70px 30px 40px;
+  inset: -12px 50px;
+  line-height: 1.1;
+}
+/*************************      секция с картами       ************************/
+.lots_heading {
+  margin: auto;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 180px;
+  padding-left: 90px;
+  padding-bottom: 27px;
+}
+
+.lots_card-list {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.card {
+  height: 450px;
+  width: 430px;
+  
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card_title {
+  color: #fff;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-underline-offset: 3px;
+  padding: 48px 40px 202px 40px;
+}
+
+.card_text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+}
+.card_type_film {
+  background-image: url(/images/card-lot-01.jpg);
+  background-position: cover;
+}
+
+
+/*************************      footer       ************************/
+.footer {
+  height: 1500px;
 }
