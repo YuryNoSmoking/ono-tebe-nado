@@ -269,7 +269,7 @@
   height: 200px;
   display: grid;
   grid-template-columns: repeat(3, 430px);
-  column-gap: 25px; 
+  column-gap: 25px;
   justify-content: center;
 }
 .footer_address {
@@ -285,7 +285,6 @@
   list-style-type: none;
   text-align: center;
   text-underline-offset: 5px;
-
 }
 
 .footer_social-list {
@@ -294,7 +293,6 @@
   width: 240px;
   gap: 48px;
   justify-self: end;
-
 }
 
 .footer_social-link {
