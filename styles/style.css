@@ -223,7 +223,7 @@
 }
 /*************************     about        ************************/
 .about {
-  margin-top: 215px;
+  margin-top: 210px;
   display: grid;
   grid-template-columns: repeat(3, 430px);
   grid-template-rows: 1fr 1fr;
@@ -264,7 +264,7 @@
 }
 /*************************      footer       ************************/
 .footer {
-  margin-top: 185px;
+  margin-top: 180px;
   margin-bottom: 40px;
   /* height: 200px; */
   display: grid;
