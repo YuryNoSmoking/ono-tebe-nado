@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  width: 100%;
+}
 
 body {
   min-width: 1100px;
