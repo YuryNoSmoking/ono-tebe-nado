@@ -266,7 +266,7 @@
 /*************************      footer       ************************/
 .footer {
   margin-top: 185px;
-  height: 200px;
+  /* height: 200px; */
   display: grid;
   grid-template-columns: repeat(3, 430px);
   column-gap: 25px;
