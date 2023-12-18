@@ -230,7 +230,7 @@
 }
 /*************************     about        ************************/
 .about {
-  margin-top: 210px;
+  margin-top: 215px;
   display: grid;
   grid-template-columns: repeat(3, 430px);
   grid-template-rows: 1fr 1fr;
@@ -266,9 +266,10 @@
   grid-column-start: 2;
   grid-column-end: 4;
 }
-.p {
+.text_margin:first-child {
   margin-bottom: 28px;
 }
+
 /*************************      footer       ************************/
 .footer {
   margin-top: 180px;
@@ -278,11 +279,10 @@
   grid-template-columns: repeat(3, 430px);
   column-gap: 25px;
   justify-content: center;
-}
-.footer_address {
   font-size: 18px;
   line-height: 1.3;
 }
+
 .footer_menu {
   justify-self: center;
 }
