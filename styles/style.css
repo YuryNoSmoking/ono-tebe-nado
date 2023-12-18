@@ -9,7 +9,7 @@
   justify-items: center;
 }
 
-.header_menu {
+.header__menu {
   display: flex;
   color: #000;
   justify-self: start;
