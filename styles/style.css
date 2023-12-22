@@ -207,15 +207,18 @@
 }
 
 .lots__look-more-link {
-  position: relative;
+  /* position: relative;
   left: 90px;
-  top: 28px;
+  top: 28px; */
+  display: block;
+  margin-left: 90px;
+  margin-top: 33px;
   font-size: 20px;
   text-underline-offset: 5px;
 }
 /*************************     about        ************************/
 .about {
-  margin-top: 215px;
+  margin-top: 187px;
   display: grid;
   grid-template-columns: repeat(3, 430px);
   grid-template-rows: 1fr 1fr;
@@ -251,8 +254,11 @@
   grid-column-start: 2;
   grid-column-end: 4;
 }
-.text_margin:first-child {
+.text_margin {
   margin-bottom: 28px;
+}
+.text_margin:last-child {
+  margin-bottom: 0;
 }
 
 /*************************      footer       ************************/
