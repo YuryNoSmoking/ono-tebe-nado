@@ -139,6 +139,7 @@
 }
 /*************************      секция с картами       ************************/
 .lots__heading {
+  font-size: 40px;
   margin: auto;
   font-weight: 700;
   text-transform: uppercase;
@@ -179,6 +180,7 @@
   text-underline-offset: 4px;
   padding: 48px 40px 0px 40px;
   z-index: 0;
+  text-transform: uppercase;
 }
 
 .card_text {
@@ -256,7 +258,7 @@
 /*************************      footer       ************************/
 .footer {
   margin-top: 180px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(3, 430px);
   column-gap: 25px;
