@@ -1,3 +1,3 @@
 # ono-tebe-nado
-Проект "Оно тебе надо"
+First test project "That needs you"
 https://github.com/YuryNoSmoking/ono-tebe-nado
