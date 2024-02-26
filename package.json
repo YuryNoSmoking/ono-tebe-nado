@@ -1,0 +1,19 @@
+{
+  "name": "ono-tebe-nado",
+  "version": "1.0.0",
+  "description": "training project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo  'hey'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1"
+  }
+}
